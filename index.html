@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title> tapvit Landing Page</title>
+  </head>
+  <body>
+    
+    <nav class="container mx-auto p-6 px-10">
+      
+      <div class="flex items-center justify-between">
+        
+        <div class="pb-4 px-l-20 ">
+          <img src="img/logo.tapvit.png" alt="" width="120" height="18"  />
+        </div>
+        
+        <div class="hidden space-x-10 text-xl md:flex">
+          <a href="#" class="text-gray-500 hover:text-purple-600">Carte classique</a>
+          <a href="#" class="text-gray-500 hover:text-purple-600">Personnalisée</a>
+          <a href="#" class="text-gray-500 hover:text-purple-600">Contactez-nous</a>
+          
+        </div>
+        <select class="font-bold text-xl">
+          <option selected>Dirham</option>
+          <option>Dollar</option>
+          <option>Euro</option></select>
+        
+
+
+        
+        <button
+          id="menu-btn"
+          class=" md:hidden "
+        ><img src="img/menu-line.png" alt="">
+        </button>
+      </div>
+
+      
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class=" flex  flex-col items-center  self-end py-8 mt-10 space-y-6 font-bold bg-gray-50 m:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-purple-600">Carte classique</a>
+          <a href="#" class="hover:text-purple-600">Personnalisée</a>
+          <a href="#" class="hover:text-purple-600">Contactez-nous</a>
+        </div>
+      </div>
+    </nav>
+
+    
+    <section id="hero" >
+      
+      <div
+        class="container flex  flex-col items-center scroll-py-4 px-6 mx-auto mt-10 space-y-0 "
+      >
+        <div class="">
+          <img src="img/Capturetap.PNG" alt="" class="w-120 h-40 shadow-2xl text-gray-950 opacity-100 hover:shadow-lg"/>
+        </div>
+        
+        <div class="flex flex-col -mb-32 space-y-12 ">
+          <h1
+            class=" italic max-w-lg text-5xl font-bold text-center pt-10 "
+          >
+          Tapvit Card
+          </h1>
+          <p class="max-w-lg text-center text-gray-600 ">
+            Notre carte de visite digitale vous permet de partager facilement vos informations professionnelles avec un simple clic. Mettez à jour vos coordonnées instantanément et rendez-vous accessible aux clients potentiels où que vous soyez. Ne manquez jamais une opportunité de networking grâce à notre solution pratique et moderne
+          </p>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    
+
+    
+    <section id="testimonials" class="bg-gray-100 ">
+      
+      <div class="max-w-6xl py-5 px-5 mx-auto mt-32 text-center">
+       
+        <h2 class="italic text-5xl font-bold text-center pt-18">
+          Pourquoi "Tapvit" ? 
+        </h2>
+        
+        <div class="flex flex-col mt-24 space-y-8 md:flex-row md:space-x-6 md:space-y-0 pb-10">
+          
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-white md:flex md:w-1/3"
+          >
+            <img src="img/deployment.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Partage facile</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “Partagez vos informations professionnelles en un seul clic”
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-white md:flex md:w-1/3"
+          >
+            <img src="img/positive-vote.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Accessibilité mobile</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “ Soyez toujours prêt à établir de nouveaux contacts professionnels, où que vous soyez ”
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-white md:flex md:w-1/3"
+          >
+            <img src="img/salary.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Economique</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “Remplacez des milliers de cartes en papier par une qui utilise la nouvelle technologie”
+            </p>
+          </div>
+
+          
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-white md:flex md:w-1/3"
+          >
+            <img src="img/Evolutive.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Evolutive</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “Édition en temps réel. Mettez à jour vos informations depuis n'importe quel endroit.”
+            </p>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+
+    
+    <section id="cta" class="bg-purple-600 ">
+      
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 "
+      >
+        
+        <h2
+          class="italic text-5xl font-bold text-center text-gray-50  "
+        >
+        Obtenez votre carte de visite digitale en un clic !
+        </h2>
+        
+        <div>
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-purple-600 bg-gray-50 rounded-full shadow-2xl baseline hover:bg-gray-900 hover:text-gray-50"
+            >Acheter maintenant</a
+          >
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    
+    <section class="bg-gray-900 py-20">
+      <div class="container">
+        <div class="sm:w-3/4 lg:w-2/6  mx-auto">
+          <h2 class="italic text-4xl text-center font-bold text-gray-50">Subscribe with us</h2>
+          <div class="flex flex-row gap-6 mt-8 px-10">
+  
+              <div class="flex-1">
+                <input
+                  id="email-input"
+                  type="email"
+                  placeholder="Enter your email address"
+                  class="w-full px-4 py-2 text-gray-900 rounded-full focus:outline-none"
+                />
+              </div>
+              <div class="flex-shrink-0">
+                <button id="subscribe-btn" type="button" class="px-6 py-2 text-gray-50 rounded-full bg-yellow-500 hover:bg-purple-600 focus:outline-none">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            
+             <script>
+              
+              const emailInput = document.getElementById('email-input');
+              const subscribeBtn = document.getElementById('subscribe-btn');
+            
+              subscribeBtn.addEventListener('click',async function() {
+                const email = emailInput.value;
+                if (email.includes('@')) {
+                  // Envoyer le formulaire ou effectuer d'autres actions
+                  console.log('Formulaire envoyé avec succès');
+                  
+                } else {
+                  
+                  alert('Veuillez entrer une adresse e-mail valide');
+                }
+              });
+            </script> -->
+            
+            <script src="index.js"></script>
+
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+</html>
